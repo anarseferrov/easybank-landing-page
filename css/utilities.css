@@ -1,0 +1,42 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+}
+
+/*Colors*/
+:root {
+  /*Primary colors*/
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+
+  /*Neutral colors*/
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/*button*/
+.btn {
+  padding: 10px 25px;
+  border: none;
+  background: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+  cursor: pointer;
+  border-radius: 20px;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 13px;
+  transition: 0.2s ease-in;
+}
+
+.btn:hover {
+  filter: brightness(120%);
+}
+
+.btn:focus {
+  outline: none;
+}
