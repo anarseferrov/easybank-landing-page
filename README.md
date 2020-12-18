@@ -8,4 +8,4 @@ Responsive bank landing page in HTML and CSS
 
 Deployed in Netlify
 
-[easybank-demo](easybank-by-anarseferrov.netlify.app)
+[easybank-demo](https://easybank-by-anarseferrov.netlify.app/)
